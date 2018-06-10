@@ -1,5 +1,6 @@
 import * as React from 'react';
 import * as ReactDOM from 'react-dom';
+import {ParentComp} from './composite/composite';
 import {Portal} from './portal/portal';
 
 const App: React.SFC = () => {
@@ -14,6 +15,7 @@ const App: React.SFC = () => {
       <div>
         Other Div
       </div>
+      <ParentComp />
     </div>
   );
 };
