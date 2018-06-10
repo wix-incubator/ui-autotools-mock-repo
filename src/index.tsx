@@ -1,10 +1,21 @@
 import * as React from 'react';
 import * as ReactDOM from 'react-dom';
+import {Portal} from './portal/portal';
 
 const App: React.SFC = () => {
-  return <div>
-    Hey cool person
-    </div>;
+  return (
+    <div>
+      <div>
+        Hey cool person
+        <Portal root={rootContainer}>
+          <span>Hey, I'm in a portal</span>
+        </Portal>
+      </div>
+      <div>
+        Other Div
+      </div>
+    </div>
+  );
 };
 
 const rootContainer = document.createElement('div');
