@@ -2,8 +2,8 @@
   "name": "ui-autotools-mock-repo",
   "version": "1.0.0",
   "private": true,
-  "author": "Kieran Williams <kieranw@wix.com>",
-  "license": "MIT",
+  "author": "Wix.com",
+  "license": "BSD-3-Clause",
   "devDependencies": {
     "@types/chai": "^4.1.3",
     "@types/chai-dom": "^0.0.6",
