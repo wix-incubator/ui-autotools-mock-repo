@@ -1,8 +1,8 @@
 import * as React from 'react';
 import * as ReactDOM from 'react-dom';
-import {AfterRenderHook} from './afterRenderHook/afterRenderHook';
 import {ParentComp} from './composite/composite';
 import {Portal} from './portal/portal';
+import {PostRenderHook} from './post-render-hook/post-render-hook';
 
 const App: React.SFC = () => {
   return (
@@ -17,7 +17,7 @@ const App: React.SFC = () => {
         Other Div
       </div>
       <ParentComp />
-      <AfterRenderHook />
+      <PostRenderHook />
     </div>
   );
 };

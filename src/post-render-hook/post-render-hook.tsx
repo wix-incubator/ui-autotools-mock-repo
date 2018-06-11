@@ -4,7 +4,7 @@ export interface CompState {
   label: string;
 }
 
-export class AfterRenderHook extends React.Component<{}, CompState> {
+export class PostRenderHook extends React.Component<{}, CompState> {
   constructor(props: any) {
     super(props);
     this.state = {
